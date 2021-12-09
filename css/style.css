@@ -1,36 +1,32 @@
 body{
-    text-align: center;
-    top: 50%;
-    transform: translateY(50%);
+    position:fixed;
+    height:100%;
+    width: 100%;
+    
 }
-
 
 h1{
-
-    background-color: mediumseagreen;
-    text-align:center;
-    display:inline-block;
-    margin-left:auto;
-    margin-right:auto;
-    padding-left: 50px;
-    padding-right: 50px;
-
-}
-
-    
-#input{
-
-    margin-top: 200px;
+    text-align: center;
+    transform: translateY(100px);
+    background-color: green;
 }
 
 ul{
+    text-align: center;
     list-style: none;
-    margin
-    
-    
-    }
-
-ul li:before{
-    content: 'X';
+    transform: translateY(200px);
 }
 
+div{
+    display:flex;
+    justify-content: center;
+    margin-top: 300px;
+
+}
+
+button{
+    background-color: white;
+    border-color:green;
+    color:green;
+
+}
