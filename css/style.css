@@ -1,0 +1,36 @@
+body{
+    text-align: center;
+    top: 50%;
+    transform: translateY(50%);
+}
+
+
+h1{
+
+    background-color: mediumseagreen;
+    text-align:center;
+    display:inline-block;
+    margin-left:auto;
+    margin-right:auto;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+    
+#input{
+
+    margin-top: 200px;
+}
+
+ul{
+    list-style: none;
+    margin
+    
+    
+    }
+
+ul li:before{
+    content: 'X';
+}
+
